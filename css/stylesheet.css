@@ -65,9 +65,9 @@
         text-decoration: underline;
         padding:5px;
     }
-    .container {
+    .container22 {
         display: flex;
-        padding:30px;
+        padding:1px;
         background-color:white;
          margin:10px;}
         .box {
@@ -245,7 +245,7 @@
             flex-shrink:2;
         }
     */
-    @media only screen and (max-width:600px) {
+    @media only screen and (max-width:500px) {
         .header {
             background-color: #454545;
             border-bottom: 4px solid #ff2882;
@@ -294,7 +294,7 @@
                          }
                          .container .box{padding:0px;
                            margin:1px;}
-                           #box1,#box2{display:none;}
+                           #box1,#box2,#box3,#box4{display:none;}
                            .about-us{display: flex;}
                            .pleague{
                                background-color: #6F0B7F;
@@ -352,6 +352,7 @@
                                 width: 90%;
                                 padding: 20px;
                                 margin-top:10px;
+                                display: block;
                                 
                                }
                                .about-us2 p{margin:20px;
